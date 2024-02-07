@@ -40,6 +40,11 @@ async function shortenURL() {
   }
 }
 
+document.getElementById("shortenBtn").addEventListener("click", function() {
+  let urlInput = document.getElementById("urlInput");
+  urlInput.value = "";
+});
+
 function deleteShortenedURL() {
   let shortPath = this.getAttribute("data-shortpath");
   let shortUrl = `https://${window.location.hostname}/${shortPath}`;
