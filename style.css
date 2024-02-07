@@ -1,0 +1,44 @@
+.sidebar{
+  background-color: rgb(208, 224, 224);
+  min-height: 10vh;
+  max-height: fit-content;
+  margin-top: 2rem;
+}
+.sidebar h2{
+  margin-left: 30px;
+}
+ul {
+  list-style: none;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.main{
+  margin-top: 2rem;
+  padding-left: 60px;
+}
+
+#urlInput{
+  width: 320px;
+  height: 40px;
+}
+
+#expirationSelect{
+  height: 40px;
+  margin-left: 5px;
+}
+button {  border: 1px solid white;
+  border-radius: 5px ;
+  color: white ;
+  background-color: #0089c5;
+  height: 40px;
+  width: 100px; 
+  margin: 10px 0 20px;
+}
+
+span{
+  cursor: pointer;
+}
